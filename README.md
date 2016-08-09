@@ -32,12 +32,6 @@ Przy tworzeniu naszego rozwiązania wzieliśmy wszystkie te czynniki pod uwagę 
 
 Preferowany sposób instalacji biblioteki poprzez zależności [maven](https://mvnrepository.com/).
 
-Uruchom:
-
-```
-npm install aztec-decoder
-```
-
 ####Użycie dekodera AZTEC 2D w Java
 
 ```java
