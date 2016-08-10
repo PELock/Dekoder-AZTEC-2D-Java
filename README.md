@@ -32,6 +32,16 @@ Przy tworzeniu naszego rozwiązania wzieliśmy wszystkie te czynniki pod uwagę 
 
 Preferowany sposób instalacji biblioteki poprzez zależności [maven](https://mvnrepository.com/).
 
+Dodaj zależność do twojego pliku pom.xml
+
+```
+<dependency>
+  <groupId>com.pelock</groupId>
+  <artifactId>AZTecDecoder</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
 ####Użycie dekodera AZTEC 2D w Java
 
 ```java
