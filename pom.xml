@@ -29,13 +29,20 @@
 
     <scm>
         <url>https://github.com/PELock/Dekoder-AZTEC-2D-Java.git</url>
-        <connection>
-            scm:git:git://github.com/PELock/Dekoder-AZTEC-2D-Java.git
-        </connection>
-        <developerConnection>
-            scm:git:git@github.com:PELock/Dekoder-AZTEC-2D-Java.git
-        </developerConnection>
+        <connection>scm:git:git://github.com/PELock/Dekoder-AZTEC-2D-Java.git</connection>
+        <developerConnection>scm:git:git@github.com:PELock/Dekoder-AZTEC-2D-Java.git</developerConnection>
     </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 
     <developers>
@@ -78,6 +85,7 @@
 
     <build>
         <plugins>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -87,6 +95,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>

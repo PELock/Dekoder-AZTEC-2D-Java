@@ -2,8 +2,8 @@
  *
  * Dekoder kodow AZTEC 2D z dowodow rejestracyjnych interfejs Web API
  *
- * Wersja         : AZTecDecoder v1.0
- * Jezyk          : PHP
+ * Wersja         : AZTecDecoder v1.0.1
+ * Jezyk          : Java
  * Zaleznosci     : org.apache.httpcomponents.httpclient v4.5.2 (https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient)
  *                  org.apache.httpcomponents.httpmime v4.5.2 (https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime)
  *                  org.json.json v20160212 (https://mvnrepository.com/artifact/org.json/json)
