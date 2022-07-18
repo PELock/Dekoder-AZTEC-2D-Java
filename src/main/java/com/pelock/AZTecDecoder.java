@@ -8,7 +8,7 @@
  *                  org.apache.httpcomponents.httpmime v4.5.2 (https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime)
  *                  org.json.json v20160212 (https://mvnrepository.com/artifact/org.json/json)
  * Autor          : Bartosz Wójcik (support@pelock.com)
- * Strona domowa  : http://www.dekoderaztec.pl | https://www.pelock.com
+ * Strona domowa  : https://www.dekoderaztec.pl | https://www.pelock.com
  *
  *****************************************************************************/
 
